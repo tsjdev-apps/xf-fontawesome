@@ -144,13 +144,22 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5"/>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XFFontAwesome\XFFontAwesome.csproj">
       <Project>{D39575C0-01E0-45FA-AF8C-2E373F38A61D}</Project>
       <Name>XFFontAwesome</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontAwesome5Brands.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontAwesome5Regular.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontAwesome5Solid.otf" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
