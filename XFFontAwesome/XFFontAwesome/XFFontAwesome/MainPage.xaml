@@ -4,11 +4,21 @@
              xmlns:local="clr-namespace:XFFontAwesome"
              x:Class="XFFontAwesome.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+    <StackLayout VerticalOptions="Center"
+                 HorizontalOptions="Center"
+                 Spacing="24">
+        <Label Text="&#xf26e;"
+               FontFamily="{StaticResource FontAwesomeBrands}"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"/>
+        <Label Text="&#xf559;"
+               FontFamily="{StaticResource FontAwesomeSolid}"
+               FontSize="Large" 
+               HorizontalTextAlignment="Center"/>
+        <Label Text="&#xf06e;"
+               FontFamily="{StaticResource FontAwesomeRegular}"
+               FontSize="Large" 
+               HorizontalTextAlignment="Center"/>
     </StackLayout>
 
 </ContentPage>
