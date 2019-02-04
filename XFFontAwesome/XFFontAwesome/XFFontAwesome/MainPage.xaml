@@ -2,20 +2,21 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XFFontAwesome"
+             xmlns:fontawesome="clr-namespace:FontAwesome"
              x:Class="XFFontAwesome.MainPage">
 
     <StackLayout VerticalOptions="Center"
                  HorizontalOptions="Center"
                  Spacing="24">
-        <Label Text="&#xf26e;"
+        <Label Text="{x:Static fontawesome:FontAwesomeIcons.Accusoft}"
                FontFamily="{StaticResource FontAwesomeBrands}"
                FontSize="Large"
                HorizontalTextAlignment="Center"/>
-        <Label Text="&#xf559;"
+        <Label Text="{x:Static fontawesome:FontAwesomeIcons.AddressBook}"
                FontFamily="{StaticResource FontAwesomeSolid}"
                FontSize="Large" 
                HorizontalTextAlignment="Center"/>
-        <Label Text="&#xf06e;"
+        <Label Text="{x:Static fontawesome:FontAwesomeIcons.ArrowAltCircleDown}"
                FontFamily="{StaticResource FontAwesomeRegular}"
                FontSize="Large" 
                HorizontalTextAlignment="Center"/>
